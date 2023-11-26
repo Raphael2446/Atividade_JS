@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>exercício 7</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Exercícios JavaScript</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index9.html">Página inicial</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1>Exibir números</h1>
+        <div>
+            <form action="">
+            <input type="number" placeholder="Digite um número" id="numero">
+            <button type="button" onclick="adicionar()" id="add"> Adicionar este número</button>
+            </form>
+        </div>
+
+        <div id="botao">
+            <button type="button" onclick="todos()"> Exibir todos os números </button>
+            <button type="button" onclick="maior()"> Exibir o maior número </button>
+            <button type="button" onclick="menor()"> Exibir o menor número </button>
+        </div>
+
+        <div id="resultado">
+            <h3>Todos os números: <span id="todos"></span></h3>
+            <h3>Maior número: <span id="maior"></span></h3>
+            <h3>Menor número: <span id="menor"></span></h3>
+        </div>
+
+        <div>
+            <button type="button" id="resetar" onclick="reset()">Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="script7.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Exercícios JavaScript</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index9.html">Página inicial</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Valor total</h1>
+        <div id="caixa">
+            <div class="prod">
+            <h3>Produto 1</h3></li>
+                <input type="text" placeholder="Nome do produto" id="nome1">
+                <input type="number" placeholder="valor do produto" id="valor1">
+                <input type="number" placeholder="Quantidade" id="quantidade1">
+            </div>
+            <div class="prod">
+                <h3>Produto 2</h3></li>
+                <input type="text" placeholder="Nome do produto" id="nome2">
+                <input type="number" placeholder="valor do produto" id="valor2">
+                <input type="number" placeholder="Quantidade" id="quantidade2">
+            </div>
+            <div class="prod">
+                <h3>Produto 3</h3></li>
+                <input type="text" placeholder="Nome do produto" id="nome3">
+                <input type="number" placeholder="valor do produto" id="valor3">
+                <input type="number" placeholder="Quantidade" id="quantidade3">
+            </div>
+        </div>
+         
+
+        <button onclick="produtos()"> Calcular Valor total </button>
+
+        <div id="resultado">
+            <h3>Valor total: <span id="total"></span></h3>
+        </div>
+    </div>
+    
+    <script src="script3.js"></script>
+</body>
+</html>
